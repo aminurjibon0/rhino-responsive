@@ -1,0 +1,170 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    h1 {
+        font-size: 38px;
+    }
+    h2 {
+        font-size: 26px;
+        line-height: 34px
+    }
+    .banner-content h1 {
+        color: #fff;
+        font-size: 50px;
+        font-weight: 800;
+        letter-spacing: -4px;
+        line-height: 60px;
+    }
+    .banner-content p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .custom-btn {
+        position: relative;
+        width: 180px;
+        display: inline-block;
+        padding: 10px 14px 10px 17px;
+        color: #fff;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    #transform .single-circle {
+        bottom: -10px;
+    }
+    .workspace-content-box {
+        padding: 37px 33px;
+        position: absolute;
+        bottom: 40px;
+        right: 0px;
+        left: 0;
+        
+    }
+    .workspace-content h2 {
+        font-size: 27px;
+        line-height: 35px;
+    }
+    .workspace-content h6 {
+        margin-bottom: 10px;
+    }
+    .workspace-content p {
+        margin-bottom: 8px;
+    }
+    .workspace-content-box {
+        padding: 25px;
+    }
+    #transform {
+        padding: 30px 0;
+    }
+    #transform h1 {
+        font-size: 28px;
+        padding: 0 20px;
+    }
+    #transform .single-overlay {
+        top: 7%;
+        left: 0;
+        padding: 100px 20px;
+        transition: all .4s;
+    }
+    #transform .single-1 .single-overlay {
+        background-color: rgba(24, 209, 147, .6);
+    }
+    #transform .single-2 .single-overlay {
+        background-color: rgba(255, 206, 28, .6);
+    }
+    #transform .single-3 .single-overlay {
+        background-color: rgba(60, 185, 249, .6);
+    }
+    #transform .single-4 .single-overlay {
+        background-color: rgba(239, 55, 123, .6);
+    }
+    #slider .single h3 {
+        font-size: 22px;
+        font-weight: 800;
+        letter-spacing: -1px;
+        line-height: 38px;
+        margin-bottom: 0px;
+        color: #fff;
+    }
+    #slider .single .slider-title {
+        color: #fff;
+        font-size: 40px;
+        font-weight: 800;
+        letter-spacing: -4px;
+        line-height: 58px;
+        margin-bottom: 20px;
+        
+        display: block;
+    }
+    #slider .custom-btn {
+        padding: 0;
+        width: 120px;
+    }
+    .overlay-nav {
+        padding-left: 30px;
+    }
+    .overlay-nav ul ul {
+        margin-left: 20px;
+    }
+    .overlay-nav ul li a {
+        font-size: 26px;
+    }
+    .overlay-nav ul li > a:hover {
+        padding-left: 0px;
+    }
+    .overlay-nav ul ul li a {
+        color: #cacaca;
+        font-size: 20px;
+    }
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .banner-content h1 {
+        color: #fff;
+        font-size: 70px;
+        font-weight: 800;
+        letter-spacing: -4px;
+        line-height: 114px;
+    }
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    h1 {
+        font-size: 38px;
+    }
+    h2 {
+        font-size: 32px;
+    }
+    .banner-content h1 {
+        color: #fff;
+        font-size: 70px;
+        font-weight: 800;
+        letter-spacing: -4px;
+        line-height: 80px;
+    }
+    #transform .single-circle {
+        bottom: -10px;
+    }
+    .workspace-content h2 {
+        font-size: 35px;
+    }
+    .workspace-content h6 {
+        margin-bottom: 10px;
+    }
+    .workspace-content p {
+        margin-bottom: 10px;
+    }
+    .workspace-content-box {
+        padding: 25px;
+    }
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    
+}
